@@ -13,7 +13,7 @@ The images depict the same object but from different camera angles and positions
 We initiate the scene construction process by generating rays (as ray directions and ray origins) through each pixel. Subsequently, we sample points on those rays. The clipping threshold for the depth values is set to 2 for the Near Threshold and 6 for the far threshold. These thresholds determine the min-max values of the ray (z-axis) between which we sample points for querying the model, which then produces an output. This raw model output is then converted to RGB and $\alpha$ values using the render function.
 
 ## Positional Encoding
-The reference paper employs Positional Encoding to enhance the resolution of the resulting image, enabling better modeling of higher frequencies. We use 10 frequencies for the positional encoding (L=10) to encode the ray samples before inputting them into the network. Equation \eqref{eqn:positional_encoding} represents the positional encoding function.
+The reference paper employs Positional Encoding to enhance the resolution of the resulting image, enabling better modeling of higher frequencies. We use 10 frequencies for the positional encoding (L=10) to encode the ray samples before inputting them into the network. The equation represents the positional encoding function.
 
 $$
 \text{PE}(l) = \begin{cases} 
