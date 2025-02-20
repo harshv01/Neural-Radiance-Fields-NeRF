@@ -1,9 +1,9 @@
-# Phase 2 - NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+# NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
 
-In Phase 2, we utilize a Deep Learning approach to construct a 3D scene from a given set of images. Our implementation is based on the paper 'NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis' by Mildenhall et al.
+In this project we utilize a Deep Learning approach to construct a 3D scene from a given set of images of a Lego Truck. Our implementation is based on the paper 'NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis' by Mildenhall et al.
 
 <div style="text-align:center;">
-<img src="./Phase 2/NeRF.gif" alt="Rendered Lego GIF" width="100" height="100">
+<img src="https://github.com/user-attachments/assets/bbcd3086-f8e4-44c1-bef6-087d03239077" alt="Rendered Lego GIF" width="100" height="100">
 </div>
 
 ## Input
@@ -28,8 +28,8 @@ Here, \(l\) represents the frequency index, and \(x\) is the input coordinate.
 
 ## How to Run Code
 
-- Download the dataset from the link: https://drive.google.com/drive/folders/1JDdLGDruGNXWnM1eqY1FNL9PlStjaKWi?usp=drive_link
-- Place it in the directory with the code files and rename the folder to 'Dataset'. The final directory should look like: 
+- Connect with me for the dataset!
+- Place the dataset in the directory with the code files and rename the folder to 'Dataset'. The final directory should look like: 
 './Dataset/('lego' or 'ship')/(test, train, val, ...)'
 - To train the model, go to the bottom of the Wrapper.py file and uncomment the main() function call and comment the test() function call and run the file.
 - To train the model without positional encoding, set the value of num_encoding_fucntions variable to 0, and in the run_model_once() function, instead of inputting the encoded points directly input the flattened_query_points variable into the get_minibatches() function so that those batches can be input into the model.
