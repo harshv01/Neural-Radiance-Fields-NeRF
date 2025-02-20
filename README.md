@@ -3,7 +3,7 @@
 In this project we utilize a Deep Learning approach to construct a 3D scene from a given set of images of a Lego Truck. Our implementation is based on the paper 'NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis' by Mildenhall et al.
 
 <div style="text-align:center;">
-<img src="https://github.com/user-attachments/assets/bbcd3086-f8e4-44c1-bef6-087d03239077" alt="Rendered Lego GIF" width="100" height="100">
+<img src="https://github.com/user-attachments/assets/bbcd3086-f8e4-44c1-bef6-087d03239077" alt="Rendered Lego GIF" width="400">
 </div>
 
 ## Input
